@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM arm64v8/ubuntu:latest
 
 RUN apt-get update
 RUN apt-get upgrade -y
